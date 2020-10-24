@@ -36,6 +36,8 @@ The loan amount possitively increases with better rating. The APR decreases with
 
 so, the relationship between APR and loan amount turns from negative to slightly positive when the * Prosper_ratings * are increased from HR to A or better.
 
+BorrowerState: 12.7% of the loans belong to (clients) borrowers from (CA) California.
+
 it's a defence mechanism,as people with A or AA ratings borrow more money, increasing APR could prevent them borrow even more and maximize the profit. on the other hand people with lower ratings tend to borrow less money, decreasing APR could encourage them to borrow more.
 
 Borrower APR by Rating and Term
@@ -47,4 +49,12 @@ the rating and term_effects on stated_monthly_income and loan_original_amount va
 ## Key Insights for Presentation
 
 I just focus on features that may affect the APR, which are features like original loan amount, Prosper rating. I started by showing the distribution of borrower APR and loan amount variable. Then, I showed with graphs (pandas or seaborn) the relationship between borrower APR vs loan_amount feature, also APR vs. rating. on the otherhand ,the effect of rating on ralationship between borrower APR feature and loan_amount feature, and the effect of the rating(categorical to num ) on relationship between borrower APR vs the terms.
+
+### References
+
+> https://www.investopedia.com/terms/r/revolving-account.asp 
+
+>https://www.investopedia.com/terms/t/trade-line.asp
+
+> https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
 
